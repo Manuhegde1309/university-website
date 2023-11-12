@@ -44,11 +44,11 @@ export const homeAbout = [
   export const coursesCard = [
     {
       id: 1,
-      cover: "../images/courses/c1.png",
+      cover: "https://media.gettyimages.com/vectors/software-engineering-keywords-with-icons-vector-id614734808",
       coursesName: "Introducing to Software Engineering",
       courTeacher: [
         {
-          dcover: "./images/back.webp",
+          dcover: "https://media.gettyimages.com/vectors/software-engineering-keywords-with-icons-vector-id614734808",
           name: "by John Smith",
           totalTime: "50 lectures (190 hrs)",
         },
@@ -58,11 +58,11 @@ export const homeAbout = [
     },
     {
       id: 2,
-      cover: "../images/courses/c2.png",
+      cover: "https://logodownload.org/wp-content/uploads/2019/10/adobe-photoshop-logo.png",
       coursesName: "Enhancing Adobe Photoshop CC 2020 Skills",
       courTeacher: [
         {
-          dcover: "./images/back.webp",
+          dcover: "https://logodownload.org/wp-content/uploads/2019/10/adobe-photoshop-logo.png",
           name: "by Ram Gurung",
           totalTime: "30 lectures (125 hrs)",
         },
@@ -72,11 +72,11 @@ export const homeAbout = [
     },
     {
       id: 3,
-      cover: "../images/courses/c3.png",
+      cover: "https://th.bing.com/th/id/OIP.kij1QlZKaZtCPtEbWQpiVAHaCz?pid=ImgDet&rs=1",
       coursesName: "HTML, CSS, and Javascript for Web Developers",
       courTeacher: [
         {
-          dcover: "./images/back.webp",
+          dcover: "https://th.bing.com/th/id/OIP.kij1QlZKaZtCPtEbWQpiVAHaCz?pid=ImgDet&rs=1",
           name: "by Saroj Nepal",
           totalTime: "50 lectures (50 hrs)",
         },
@@ -86,11 +86,11 @@ export const homeAbout = [
     },
     {
       id: 4,
-      cover: "../images/courses/c4.png",
+      cover: "https://th.bing.com/th/id/OIP.zNUSFf1aeErMeOFY9s1--QHaHa?pid=ImgDet&rs=1",
       coursesName: "Introducing to Programming with WordPress",
       courTeacher: [
         {
-          dcover: "./images/back.webp",
+          dcover: "https://th.bing.com/th/id/OIP.zNUSFf1aeErMeOFY9s1--QHaHa?pid=ImgDet&rs=1",
           name: "by Prabin Thapa Mager",
           totalTime: "20 lectures (20 hrs)",
         },
@@ -100,11 +100,11 @@ export const homeAbout = [
     },
     {
       id: 5,
-      cover: "../images/courses/c5.png",
+      cover: "https://th.bing.com/th/id/OIP.K-4RqDC6zFrpAG31ayDDOgHaHa?pid=ImgDet&rs=1",
       coursesName: "Introducing to Programming with ReactJS",
       courTeacher: [
         {
-          dcover: "./images/back.webp",
+          dcover: "https://th.bing.com/th/id/OIP.K-4RqDC6zFrpAG31ayDDOgHaHa?pid=ImgDet&rs=1",
           name: "by Sunil Bishowkaram",
           totalTime: "100 lectures (150 hrs)",
         },
@@ -114,11 +114,11 @@ export const homeAbout = [
     },
     {
       id: 6,
-      cover: "../images/courses/c6.png",
+      cover: "https://th.bing.com/th/id/OIP.liYbsPpCk8BCLhNs9R9Z4wHaE8?pid=ImgDet&rs=1",
       coursesName: "Learn Frontend Programming Language",
       courTeacher: [
         {
-          dcover: "./images/back.webp",
+          dcover: "https://th.bing.com/th/id/OIP.liYbsPpCk8BCLhNs9R9Z4wHaE8?pid=ImgDet&rs=1",
           name: "by Sunil Bishowkaram",
           totalTime: "200 lectures (300 hrs)",
         },
@@ -128,11 +128,11 @@ export const homeAbout = [
     },
     {
       id: 7,
-      cover: "../images/courses/c7.png",
+      cover: "https://th.bing.com/th/id/OIP.0F4YvmgQUGz9WwE3eJU_ZgHaFW?pid=ImgDet&rs=1",
       coursesName: "Introducing to with HTML / CSS",
       courTeacher: [
         {
-          dcover: "./images/back.webp",
+          dcover: "https://th.bing.com/th/id/OIP.0F4YvmgQUGz9WwE3eJU_ZgHaFW?pid=ImgDet&rs=1",
           name: "by Price",
           totalTime: "20 lectures (50 hrs)",
         },
@@ -142,11 +142,11 @@ export const homeAbout = [
     },
     {
       id: 8,
-      cover: "../images/courses/c8.png",
+      cover: "https://img.freepik.com/free-vector/online-training-concept-illustration_114360-22426.jpg?w=740&t=st=1699805347~exp=1699805947~hmac=060ab06613f96edbd6e677e7a8ff14f278c91669e765d32337b13ef88ea24520",
       coursesName: "Introducing to with JAVA",
       courTeacher: [
         {
-          dcover: "./images/back.webp",
+          dcover: "https://img.freepik.com/free-vector/online-training-concept-illustration_114360-22426.jpg?w=740&t=st=1699805347~exp=1699805947~hmac=060ab06613f96edbd6e677e7a8ff14f278c91669e765d32337b13ef88ea24520",
           name: "by Petter",
           totalTime: "80 lectures (200 hrs)",
         },
@@ -156,11 +156,11 @@ export const homeAbout = [
     },
     {
       id: 9,
-      cover: "../images/courses/c9.png",
+      cover: "https://th.bing.com/th/id/OIP.kij1QlZKaZtCPtEbWQpiVAHaCz?pid=ImgDet&rs=1",
       coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
       courTeacher: [
         {
-          dcover: "./images/back.webp",
+          dcover: "https://th.bing.com/th/id/OIP.kij1QlZKaZtCPtEbWQpiVAHaCz?pid=ImgDet&rs=1",
           name: "by Petter",
           totalTime: "50 lectures (50 hrs)",
         },
@@ -237,50 +237,50 @@ export const homeAbout = [
       course: "17 Courses",
     },
     {
-      cover: "./images/courses/online/o12.png",
-      hoverCover: "./images/courses/online/o12.1.png",
+      cover: "https://th.bing.com/th/id/OIP.kij1QlZKaZtCPtEbWQpiVAHaCz?pid=ImgDet&rs=1",
+      hoverCover: "https://th.bing.com/th/id/OIP.kij1QlZKaZtCPtEbWQpiVAHaCz?pid=ImgDet&rs=1",
       courseName: "Web Management",
       course: "17 Courses",
     },
   ]
   export const team = [
     {
-      cover: "./images/team/t1.webp",
+      cover: "https://img.freepik.com/free-photo/successful-financier_1098-16015.jpg?w=1060&t=st=1699804670~exp=1699805270~hmac=b669c5ddd64979cd0b3a584bfa37d3140e016322c9256bd6731fdcbdc549171f",
       name: "Ph.D Adrian Molises",
       work: "DEVELOPER AND LEAD INSTRUCTOR",
     },
     {
-      cover: "./images/team/t2.webp",
+      cover: "https://img.freepik.com/free-photo/showing-example-whiteboard-group-people-business-conference-modern-classroom-daytime_146671-16416.jpg?w=1060&t=st=1699804626~exp=1699805226~hmac=d834b4a8b3e29430560b817444f8215c807ff5e9f3705753bb5e739ecd80975a",
       name: "Ph.D Arthur MaGregor",
       work: "DEVELOPER AND LEAD INSTRUCTOR",
     },
     {
-      cover: "./images/team/t3.webp",
+      cover: "https://img.freepik.com/free-photo/businesswoman-holding-digital-tablet_107420-84916.jpg?w=1060&t=st=1699804486~exp=1699805086~hmac=80f291639bb80aca1439731b146456cf84f656a24ac4027630ab410aad98d19e",
       name: "Ph.D Anna Hanzen",
       work: "DEVELOPER AND LEAD INSTRUCTOR",
     },
     {
-      cover: "./images/team/t4.webp",
+      cover: "https://img.freepik.com/free-photo/front-view-man-classroom_23-2150444952.jpg?w=1060&t=st=1699804591~exp=1699805191~hmac=4e40c10646338e9b5ffa774a1e06382f22e913458fd392f0c3eb4fc81c4ce438",
       name: "Ph.D Brian Wooden",
       work: "DEVELOPER AND LEAD INSTRUCTOR",
     },
     {
-      cover: "./images/team/t5.webp",
+      cover: "https://img.freepik.com/free-photo/successful-financier_1098-16015.jpg?w=1060&t=st=1699804670~exp=1699805270~hmac=b669c5ddd64979cd0b3a584bfa37d3140e016322c9256bd6731fdcbdc549171f",
       name: "Ph.D Adrian Molises",
       work: "DEVELOPER AND LEAD INSTRUCTOR",
     },
     {
-      cover: "./images/team/t6.webp",
+      cover: "https://img.freepik.com/free-photo/showing-example-whiteboard-group-people-business-conference-modern-classroom-daytime_146671-16416.jpg?w=1060&t=st=1699804626~exp=1699805226~hmac=d834b4a8b3e29430560b817444f8215c807ff5e9f3705753bb5e739ecd80975a",
       name: "Ph.D Arthur MaGregor",
       work: "DEVELOPER AND LEAD INSTRUCTOR",
     },
     {
-      cover: "./images/team/t7.webp",
+      cover: "https://img.freepik.com/free-photo/businesswoman-holding-digital-tablet_107420-84916.jpg?w=1060&t=st=1699804486~exp=1699805086~hmac=80f291639bb80aca1439731b146456cf84f656a24ac4027630ab410aad98d19e",
       name: "Ph.D Anna Hanzen",
       work: "DEVELOPER AND LEAD INSTRUCTOR",
     },
     {
-      cover: "./images/team/t8.webp",
+      cover: "https://img.freepik.com/free-photo/front-view-man-classroom_23-2150444952.jpg?w=1060&t=st=1699804591~exp=1699805191~hmac=4e40c10646338e9b5ffa774a1e06382f22e913458fd392f0c3eb4fc81c4ce438",
       name: "Ph.D Brian Wooden",
       work: "DEVELOPER AND LEAD INSTRUCTOR",
     },
@@ -341,7 +341,7 @@ export const homeAbout = [
       com: "3 COMMENTS ",
       title: "Build your Dream Software & Engineering Career",
       desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-      cover: "../images/blog/b1.webp",
+      cover: "https://img.freepik.com/free-photo/young-smiling-confident-woman-using-laptop-computer-looking-camera-isolated-white-background_231208-9497.jpg?w=360&t=st=1699803220~exp=1699803820~hmac=bf0395a98930ae1df1639fc8ee7acb0290650e773547d29609afdee3a2371440",
     },
     {
       id: 2,
@@ -350,7 +350,7 @@ export const homeAbout = [
       com: "5 COMMENTS ",
       title: "Build your Dream Software & Engineering Career",
       desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-      cover: "../images/blog/b2.webp",
+      cover: "https://img.freepik.com/free-photo/tourist-with-book_1368-6970.jpg?w=900&t=st=1699803272~exp=1699803872~hmac=0706270e894ae94286a0fac6b269fd631062a8679030f024036c80a35472b928",
     },
     {
       id: 3,
@@ -359,7 +359,7 @@ export const homeAbout = [
       com: "10 COMMENTS ",
       title: "Build your Dream Software & Engineering Career",
       desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-      cover: "../images/blog/b3.webp",
+      cover: "https://img.freepik.com/premium-photo/beautiful-girl-student-smiling-holding-book-photography_878783-7414.jpg?w=740",
     },
     {
       id: 4,
@@ -368,7 +368,7 @@ export const homeAbout = [
       com: "3 COMMENTS ",
       title: "Build your Dream Software & Engineering Career",
       desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-      cover: "../images/blog/b4.webp",
+      cover: "https://images.pexels.com/photos/2519217/pexels-photo-2519217.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     },
     {
       id: 5,
@@ -377,7 +377,7 @@ export const homeAbout = [
       com: "3 COMMENTS ",
       title: "Build your Dream Software & Engineering Career",
       desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-      cover: "../images/blog/b5.webp",
+      cover: "https://images.pexels.com/photos/3747511/pexels-photo-3747511.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     },
     {
       id: 6,
@@ -386,7 +386,7 @@ export const homeAbout = [
       com: "12 COMMENTS ",
       title: "Build your Dream Software & Engineering Career",
       desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-      cover: "../images/blog/b6.webp",
+      cover: "https://img.freepik.com/premium-photo/beautiful-girl-student-smiling-holding-book-photography_878783-7414.jpg?w=740",
     },
   ]
   export const testimonal = [
@@ -395,20 +395,20 @@ export const homeAbout = [
       name: "ROGER SCOTT",
       post: "MARKETING MANAGER",
       desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-      cover: "./images/testo/t1.webp",
+      cover: "https://img.freepik.com/free-photo/how-is-your-deals-group-people-business-conference-modern-classroom-daytime_146671-16408.jpg?w=1060&t=st=1699804411~exp=1699805011~hmac=b809ffe235f97521a229840ce93127980dfa2ca6ac2c4b7d267a6ee442644ab2",
     },
     {
       id: 2,
       name: "ROGER SCOTT",
       post: "MARKETING MANAGER",
       desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-      cover: "./images/testo/t2.webp",
+      cover: "https://img.freepik.com/free-photo/how-is-your-deals-group-people-business-conference-modern-classroom-daytime_146671-16408.jpg?w=1060&t=st=1699804411~exp=1699805011~hmac=b809ffe235f97521a229840ce93127980dfa2ca6ac2c4b7d267a6ee442644ab2",
     },
     {
       id: 3,
       name: "ROGER SCOTT",
       post: "MARKETING MANAGER",
       desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-      cover: "./images/testo/t3.webp",
+      cover: "https://img.freepik.com/free-photo/how-is-your-deals-group-people-business-conference-modern-classroom-daytime_146671-16408.jpg?w=1060&t=st=1699804411~exp=1699805011~hmac=b809ffe235f97521a229840ce93127980dfa2ca6ac2c4b7d267a6ee442644ab2",
     },
   ]
