@@ -12,7 +12,7 @@ const Footer = () => {
 
             </div>
             <div className='right row'>
-                <input type='text' placeholder='Enter email adderss'/>
+                <input type='text' placeholder='Enter email address'/>
                 <i className="fa fa-paper-plane"></i>
             </div>
         </div>
