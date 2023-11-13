@@ -17,7 +17,7 @@ const Header = () => {
             <li><Link to="/pricing">Pricing</Link></li>
             <li><Link to="/journal">Journal</Link></li> 
             <li><Link to="/contact">Contact</Link></li>
-             <li><Link to="/login">StudentPortal</Link></li>     
+             <li><Link to="/register">StudentPortal</Link></li>     
             </ul>
           <div className="start">
             <div className="button">GET CERTIFICATE</div>
