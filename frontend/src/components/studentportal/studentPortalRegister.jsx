@@ -36,12 +36,18 @@ const StudentPortalRegister = () => {
     <>
     <Back/>
     <form onSubmit={registerUser} className='form'>
+        <div>
         <label className='field'>Name</label>
         <input type='text' placeholder='enter name' value={data.name} onChange={(e)=>setData({...data,name:e.target.value})}/>
+        </div>
+        <div>
         <label className='field'>Email</label>
         <input type='email' placeholder='enter email' value={data.email} onChange={(e)=>setData({...data,email:e.target.value})}/>
+        </div>
+        <div>
         <label className='field'>password</label>
         <input type='password' placeholder='enter password' value={data.password} onChange={(e)=>setData({...data,password:e.target.value})}/>
+        </div>
         <button type='submit'>Submit</button>
     </form>
     </>

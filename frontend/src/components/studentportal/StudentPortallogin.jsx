@@ -32,11 +32,16 @@ const StudentPortallogin = () => {
   return (
     <>
     <Back/>
+    
     <form onSubmit={loginUser} className='form'>
+    <div>
     <label className='field'>Email</label>
     <input type='email' placeholder='enter email' value={data.email} onChange={(e)=>setData({...data,email:e.target.value})} className='input'/>
+    </div>
+    <div>
     <label className='field'>password</label>
     <input type='password' placeholder='enter password' value={data.password} onChange={(e)=>setData({...data,password:e.target.value})} className='input'/>
+    </div>
     <button type='submit'>login</button>
     </form>
     </>
