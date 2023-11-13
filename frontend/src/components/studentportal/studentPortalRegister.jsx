@@ -3,6 +3,7 @@ import {React,useState} from 'react'
 import { toast } from 'react-hot-toast'
 import {useNavigate} from 'react-router-dom' 
 import './studentportal.css'
+import Back from '../common/back/Back'
 const StudentPortalRegister = () => {
     const navigate = useNavigate()
     const [data,setData]=useState({
@@ -33,6 +34,7 @@ const StudentPortalRegister = () => {
     }
   return (
     <>
+    <Back/>
     <form onSubmit={registerUser} className='form'>
         <label className='field'>Name</label>
         <input type='text' placeholder='enter name' value={data.name} onChange={(e)=>setData({...data,name:e.target.value})}/>

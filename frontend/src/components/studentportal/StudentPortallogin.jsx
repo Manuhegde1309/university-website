@@ -3,6 +3,7 @@ import axios from 'axios'
 import toast from 'react-hot-toast'
 import { useNavigate } from 'react-router-dom'
 import "./studentportal.css"
+import Back from '../common/back/Back'
 const StudentPortallogin = () => {
   const navigate=useNavigate()
   const [data,setData]=useState({
@@ -30,6 +31,7 @@ const StudentPortallogin = () => {
   }
   return (
     <>
+    <Back/>
     <form onSubmit={loginUser} className='form'>
     <label className='field'>Email</label>
     <input type='email' placeholder='enter email' value={data.email} onChange={(e)=>setData({...data,email:e.target.value})} className='input'/>
