@@ -1,0 +1,48 @@
+.core-courses {
+    width: 100%;
+    padding: 50px 40px;
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.core-courses h1 {
+    text-transform: capitalize;
+    font-size: 35px;
+}
+
+.core-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.core {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: var(--color-teal);
+    padding: 20px 40px;
+}
+
+.core .type {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.core .line {
+    width: 100%;
+    height: 5px;
+    background-color: var(--color-white);
+}
+
+.core .core-price {
+    display: flex;
+    flex-direction: column;
+}

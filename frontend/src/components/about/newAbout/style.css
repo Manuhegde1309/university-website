@@ -1,0 +1,42 @@
+.about-main {
+    background-color: aliceblue;
+    width: 100%;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.about-main .card1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.about-main .card2 {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 40px;
+}
+
+.about-main .img {
+    width: 500px;
+}
+.about-main .img img {
+    width: 100%;
+}
+
+.about-main p {
+    flex: 1;
+}
+
+@media screen and (max-width: 768px) {
+    .about-main .card1,
+    .about-main .card2 {
+        flex-direction: column;
+    }
+
+    .about-main .img {
+        width: 100%;
+    }
+}

@@ -1,0 +1,105 @@
+.items {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #fff;
+    padding: 30px;
+    text-align: center;
+}
+
+.items .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.items .content .img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: var(--color-teal);
+    overflow: hidden;
+    border: 1px solid var(--color-dark);
+}
+.items .content .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.items .content .text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.items .text h1 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.items .text .rate {
+    margin: 20px 0;
+    color: #1eb2a6;
+}
+.items .rate i {
+    font-size: 13px;
+    margin-right: 5px;
+}
+
+.items .text .details {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.items .text .details .box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: grey;
+}
+
+.items .box .dimg {
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.items .box .dimg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.items .details span {
+    color: #1eb2a6;
+    font-weight: 500;
+    font-size: 14px;
+}
+.items .price {
+    margin: 30px 0;
+    background-color: #f8f8f8;
+    padding: 10px;
+}
+.items .price h3 {
+    font-weight: 500;
+    color: #1eb2a6;
+}
+
+.outline-btn {
+    padding: 20px 30px;
+    background-color: var(--color-white);
+    cursor: pointer;
+    border: 1px solid var(--color-dark);
+    text-decoration: none;
+    color: var(--color-teal);
+}
+
+.outline-btn:hover {
+    background-color: var(--color-teal);
+    color: var(--color-white);
+}

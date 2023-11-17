@@ -1,61 +1,58 @@
-import React from 'react'
-import { coursesCard } from '../../dummydata'
-import "./courses.css"
+import React from "react";
+import { coursesCard } from "../../dummydata";
+import SingleCourseCard from "./singleCourseCard/singleCourseCard";
+import "./courses.css";
+import toast, { Toaster } from "react-hot-toast";
+import { useContext } from "react";
+import { UserContext } from "../../context/userContext";
+import { useNavigate } from "react-router-dom";
 
 const CourseCard = () => {
-  return (
-    <>
-    <section className='coursesCard'>
-    <div className="container grid2">
-        {coursesCard.map((val) => {
-        return(
-        <div className="items">
-            <div className="content flex">
-                <div className="left">
-                    <div className="img">
-                        <img src={val.cover} alt=""  />
-                    </div>
-                </div>
-                <div className="text">
-                    <h1>{val.coursesName}</h1>
-                    <div className="rate">
-                        <i className='fa fa-star'></i>
-                        <i className='fa fa-star'></i>
-                        <i className='fa fa-star'></i>
-                        <i className='fa fa-star'></i>
-                        <i className='fa fa-star'></i>
-                        <label htmlFor=''>(5.0)</label> 
-                    </div>
-                    <div className="details">
-                        {val.courTeacher.map((details)=>(
-                            <>
-                            <div className="box">
-                                <div className="dimg">
-                                    <img src={details.dcover} alt=''/>
-                                </div>
-                                <div className="para">
-                                    <h4>{details.name}</h4>
-                                </div>
+    const navigate = useNavigate();
+    const { user } = useContext(UserContext);
+
+    async function addCourseToList(course) {
+        if (user?.id) {
+            const newCourse = { ...course, userId: user.id };
+            const response = await fetch("http://localhost:4000/addcourse", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                mode: "cors",
+                body: JSON.stringify(newCourse),
+            });
+            if (response.ok) {
+                toast.success("Added!");
+            } else {
+                toast.error("Something went Wrong!");
+            }
+        } else {
+            navigate("/login");
+        }
+    }
+
+    return (
+        <>
+            <Toaster />
+            <section className="coursesCard">
+                <div className="container">
+                    {coursesCard?.map((val, i) => {
+                        return (
+                            <div key={i} className="coursecard-container">
+                                <SingleCourseCard
+                                    val={val}
+                                    added={false}
+                                    addCourseToList={addCourseToList}
+                                    key={i}
+                                />
                             </div>
-                            <span>{details.totalTime}</span>
-                            </>
-                        ))}
-                        
-                    </div>
-
+                        );
+                    })}
                 </div>
-            </div>
-            <div className="price">
-                <h3>{val.priceAll}/{val.pricePer}</h3>
-            </div>
-            <button className='outline-btn'>ENROLL NOW!</button>
-        </div>
-        )
-})}
-    </div>
-    </section>
-    </>
-  )
-}
+            </section>
+        </>
+    );
+};
 
-export default CourseCard
+export default CourseCard;

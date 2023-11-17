@@ -1,0 +1,50 @@
+.authpage {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.authpage form {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: var(--color-light);
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.authpage form div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.authpage form div .field {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.authpage form div input {
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid var(--color-light);
+}
+
+.authpage form button {
+    padding: 15px 30px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid var(--color-light);
+    background-color: var(--color-white);
+}
+
+.authpage form button:hover {
+    background-color: var(--color-teal);
+    cursor: pointer;
+}

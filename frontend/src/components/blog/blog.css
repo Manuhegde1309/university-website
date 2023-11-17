@@ -1,34 +1,49 @@
-.blog img{
-    width: 100%;height: 100%;
+.blog {
+    width: 100%;
+    padding: 100px 40px;
+    background-color: var(--color-white);
 }
-.blog .text{
-    padding: 40px 30px;
+
+.blog .container {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
 }
-.blog h1{
-    font-weight: 500px;
-    font-size: 22px;
-    line-height: 30px;margin: 20px 0;
-    transition: 0.5s;
-}
-.blog h1:hover{
-    color:#1eb2a6;
+
+.blog .items {
+    width: 400px;
+    background-color: var(--color-light);
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
-.blog span{
-    text-transform: uppercase;
-    font-weight: 500;
-    color: #1eb2a6;
+
+.blog .items h6 {
+    text-align: start;
 }
-.blog span label{
-    margin: left 10px;
-    color: grey;
+
+.blog .items h2 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.blog .items h4 {
     font-size: 14px;
-
 }
-.blog span:nth-last-child(1) label{
-    color: #1eb2a6;
 
+.blog .items p {
+    font-size: 16px;
+    text-align: justify;
 }
-.blog p{
-    color:gray;
+
+.blog .items a {
+    text-align: right;
+    margin-top: 20px;
+    font-size: 12px;
+    text-decoration: underline;
+    color: var(--color-dark);
 }
