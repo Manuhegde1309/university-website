@@ -1,4 +1,4 @@
-import React from "react" 
+import React from "react"
 import "./Header.css"
 const Head = () => {
     return (
@@ -19,5 +19,5 @@ const Head = () => {
             </section>
         </>
     )
-} 
+}
 export default Head

@@ -5,10 +5,10 @@ const Awrapper = () => {
   return (
     <>
       <section className='awrapper'>
-        <div className='container grid'>
-          {awrapper.map((val) => {
+        <div className='container'>
+          {awrapper.map((val, i) => {
             return (
-              <div className='box flex'>
+              <div className='box flex' key={i}>
                 <div className='img'>
                   <img src={val.cover} alt='' />
                 </div>

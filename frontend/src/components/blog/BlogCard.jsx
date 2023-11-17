@@ -1,36 +1,22 @@
-import React from 'react'
-import { blog } from '../../dummydata'
-import "./blog.css"
+import React from "react";
+import { research } from "../../dummydata";
+import "./blog.css";
 const BlogCard = () => {
-  return (
-    <>
-    {blog.map((val)=>(
-        <div className="items shadow">
-            <div className="img">
-                <img src={val.cover} alt="" />
-            </div>
-            <div className="text">
-                <div className="admin flexSB">
-                    <span>
-                        <i className='fa fa-user'></i>
-                        <label htmlFor="">{val.type}</label>
-                    </span>
-                    <span>
-                        <i className='fa fa-calendar-alt'></i>
-                        <label htmlFor="">{val.date}</label>
-                    </span>
-                    <span>
-                        <i className='fa fa-comments'></i>
-                        <label htmlFor="">{val.com}</label>
-                    </span>
+    return (
+        <>
+            {research.map((val, i) => (
+                <div className="items" key={i}>
+                    <h6>No: {i + 1}</h6>
+                    <h2>{val.topic}</h2>
+                    <h4>Professor : {val.professor}</h4>
+                    <p>{val.points}</p>
+                    <a href={val.link} target="_blank">
+                        Click to read more..
+                    </a>
                 </div>
-                <h1>{val.title}</h1>
-                <p>{val.desc}</p>
-            </div>
-        </div>
-    ))}
-    </>
-  )
-}
+            ))}
+        </>
+    );
+};
 
-export default BlogCard
+export default BlogCard;

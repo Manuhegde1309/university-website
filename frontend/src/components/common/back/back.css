@@ -1,0 +1,14 @@
+.back-main {
+    width: 100%;
+    background-color: var(--color-blue);
+    padding: 100px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-white);
+}
+
+.back-main h2 {
+    font-size: 40px;
+}

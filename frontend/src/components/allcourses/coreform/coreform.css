@@ -1,0 +1,67 @@
+.coreform-main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-light);
+    padding: 50px 40px;
+}
+
+.coreform-main form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+    padding: 40px;
+}
+
+.coreform-main .form-fields {
+    display: flex;
+    align-items: start;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.coreform-main .form-fields label {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.coreform-main input {
+    padding: 6px 30px;
+    margin-left: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(221, 221, 221);
+}
+
+.coreform-main form .course-select {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.coreform-main form .course-select select {
+    padding: 10px 20px;
+    margin-left: 20px;
+    outline: none;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 5px;
+}
+
+.coreform-main form button {
+    padding: 10px 40px;
+    border-radius: 5px;
+    background-color: var(--color-white);
+    outline: none;
+    border: 1px solid rgb(221, 221, 221);
+    cursor: pointer;
+}
+
+.coreform-main form button:hover {
+    background-color: var(--color-teal);
+    color: var(--color-white);
+    transition: all 300ms ease;
+}
