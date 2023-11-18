@@ -33,7 +33,7 @@ For students who have enrolled in our online courses, the website incorporates a
 
 ### The website has been hosted on local server (frontend: port 5173, backend: port 4000).
 
-### Open your browser and search hhttp://localhost:5173
+### Open your browser and search http://localhost:5173
 
 # Follow us and Star ⭐ the Repository
 [![GitHub](https://img.shields.io/badge/GitHub-mfurqaan31-black?&logo=github)](https://github.com/mfurqaan31) [![GitHub](https://img.shields.io/badge/GitHub-Manuhegde1309-black?&logo=github)](https://github.com/Manuhegde1309)
