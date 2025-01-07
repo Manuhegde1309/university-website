@@ -1,6 +1,6 @@
 import React from "react";
 import { coursesCard } from "../../dummydata";
-import SingleCourseCard from "./singleCourseCard/singleCourseCard";
+import SingleCourseCard from "./singleCourseCard/SingleCourseCard";
 import "./courses.css";
 import toast, { Toaster } from "react-hot-toast";
 import { useContext } from "react";
