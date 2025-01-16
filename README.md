@@ -35,5 +35,7 @@ For students who have enrolled in our online courses, the website incorporates a
 
 ### Open your browser and search http://localhost:5173
 
+### To use the updated version of this app, refer to this repo:  [https://github.com/mfurqaan31/MERN-University-app](https://github.com/mfurqaan31/MERN-University-app)
+
 # Follow us and Star ⭐ the Repository
 [![GitHub](https://img.shields.io/badge/GitHub-mfurqaan31-black?&logo=github)](https://github.com/mfurqaan31) [![GitHub](https://img.shields.io/badge/GitHub-Manuhegde1309-black?&logo=github)](https://github.com/Manuhegde1309)
